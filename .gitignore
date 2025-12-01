@@ -1,0 +1,70 @@
+# Intel Quartus Prime Generated Files
+db/
+incremental_db/
+output_files/
+simulation/
+greybox_tmp/
+*.rpt
+!*.restore.rpt
+*.smsg
+*.summary
+*.done
+*.pin
+*.jdi
+
+# Quartus Compilation Files
+*.sof
+*.pof
+*.jic
+*.jam
+*.jbc
+*.rbf
+*.ttf
+
+# Quartus Backup Files
+*.bak
+*.qws
+*.orig
+
+# Quartus SignalTap Files
+*.stp.bak
+
+# Quartus Temporary Files
+*.tmp
+*~
+
+# ModelSim / QuestaSim Files
+work/
+modelsim/
+*.wlf
+*.vstf
+*.ucdb
+transcript
+*.mpf
+
+# Synthesis Files
+*.vo
+*.vho
+*.sdo
+*.sdc.bak
+
+# IP Generated Files (keep source, ignore generated)
+*_sim/
+*_bb.v
+
+# System Files
+.DS_Store
+Thumbs.db
+*.log
+
+# Editor Files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+*.sublime-*
+
+# Temporary Files
+tmp/
+temp/
