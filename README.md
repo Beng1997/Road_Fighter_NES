@@ -179,6 +179,28 @@ The game is implemented using a modular hardware design approach:
 └──────────┴──────────┴──────────┴────────────────┘
 ```
 
+### System Architecture
+
+The following diagrams provide a detailed view of the system architecture and state machines:
+
+#### Overall System Architecture
+
+![System Architecture Diagram](system_architecture.png)
+
+*Complete system architecture showing the interconnection of all major components*
+
+#### Main Game Finite State Machine
+
+![Main Game FSM](main_game_fsm.png)
+
+*State machine diagram for the main game logic and flow control*
+
+#### Sound Controller Finite State Machine
+
+![Sound Controller FSM](sound_controller_fsm.png)
+
+*State machine diagram for the audio/sound controller subsystem*
+
 ### Clock Domains
 
 | Clock | Frequency | Purpose |
@@ -200,15 +222,57 @@ The game is implemented using a modular hardware design approach:
 - **Collision Detection**: Hardware-based sprite collision
 - **Obstacle Movement**: Continuous scrolling with random positioning
 
+### Hardware Schematics
+
+The following block diagrams show the detailed hardware implementation of various subsystems:
+
+#### Clock and Cars Block Schematic
+
+![Clock and Cars Schematic](schematic_clock_and_cars.png)
+
+*Block diagram showing the clock generation and car control logic*
+
+#### Control and Audio Block Schematic
+
+![Control and Audio Schematic](schematic_control_and_audio.png)
+
+*Block diagram of the control input and audio output subsystems*
+
+#### Keyboard and Environment Block Schematic
+
+![Keyboard and Environment Schematic](schematic_keyboard_and_env.png)
+
+*Block diagram showing keyboard input processing and environment rendering*
+
+#### Stats and Display Block Schematic
+
+![Stats and Display Schematic](schematic_stats_and_display.png)
+
+*Block diagram of the statistics tracking and display rendering system*
+
 ---
 
 ## 📸 Screenshots
 
-### In-Game View
+### Title Screen
 
-![Road Fighter Gameplay](docs/in_game.png)
+![Road Fighter Title Screen](title_screen.png)
+
+*Game title screen with menu options*
+
+### Gameplay Screenshots
+
+![Road Fighter Gameplay](gameplay_screenshot.png)
+
+*Active gameplay showing the racing action*
+
+![Road Fighter In-Game View](docs/in_game.png)
 
 *The game running on the DE10-Standard FPGA with VGA output*
+
+![Additional Game View](image.png)
+
+*Another view of the game in action*
 
 ---
 
